@@ -4,7 +4,7 @@ BERT was pre-trained on unlabelled annual report text and fine-tuned on the FiQA
 
 This method suggests the annual report in pdf form is fed into pdfminer which converts the documents into text. This text is then split into sentences and the sentences with maximum similarity to the question are obtained. Finbert Embeddings are used to rerank them and the next top few answers are sent into pre-trained, fine-tuned BERT to process and rerank one last time. The BERT used can also be an already available fine-tuned question answering BERT from hugging face. The top candidates are then merged into an answer. 
 
-![Screenshot](Extractive-Long-Form-Question-Answering-using-BERT/System Flowchart/Screenshot 2022-02-02 at 12.34.59 AM.png)
+https://github.com/anusha2904/Extractive-Long-Form-Question-Answering-using-BERT/blob/main/System%20Flowchart/Screenshot%202022-02-02%20at%2012.34.59%20AM.png
 
 The main notebook is "Extractive Long Form Question Answering System for Annual Reports using BERT" or can be accessed here: https://colab.research.google.com/drive/15n1fZauD1O96s-yrfsBaLIiIvs4HjUOX?usp=sharing 
 
