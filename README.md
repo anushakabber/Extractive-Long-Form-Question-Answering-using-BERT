@@ -15,7 +15,7 @@ If you want to pre-train and fine-tune your model please visit this notebook. ht
 
 You can also use the interactive app that is made with fastapi, HTML and CSS and uses uvicorn. Be sure to have the pdf of the annual report that you want to query in the same directory as main.py. You can install all necessary requirements with: 
 
-````pip install requirements.txt```
+```pip install requirements.txt```
 
 Once you clone the repository and install requirements, run: 
 
@@ -30,3 +30,15 @@ to start the app.
  Home page: 
  
 ![image1](home.png)
+
+Put in your pdf name! 
+
+![image2](pdf.png)
+
+The question you want to know the answer to: 
+
+![image3](question.png)
+
+And finally the answer!
+
+![image4](result)
