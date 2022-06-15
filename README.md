@@ -13,7 +13,7 @@ If you do not have your own pre-trained and fine-tuned BERT you can use the alre
 If you want to pre-train and fine-tune your model please visit this notebook. https://colab.research.google.com/drive/10QYn1F9AZUSiov9lqyxzjne41lvGHouV?usp=sharing or explore the notebook "BERT_Finetune_Pretrain" in this repo. 
 
 
-You can also use the interactive app that is made with fastapi, HTML and CSS and uses uvicorn. Be sure to have the pdf of the annual report that you want to query in the same directory as main.py. You can install all necessary requirements with: 
+You can also use the interactive app that is made with fastapi, HTML, CSS and uses uvicorn. Be sure to have the pdf of the annual report that you want to query in the same directory as main.py. You can install all necessary requirements with: 
 
 ```pip install requirements.txt```
 
