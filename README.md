@@ -41,4 +41,4 @@ The question you want to know the answer to:
 
 And finally the answer!
 
-![image4](result)
+![image4](result.png)
