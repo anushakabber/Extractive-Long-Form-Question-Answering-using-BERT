@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Your answer is!</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<!-- code here -->
+	<div class="card">
+		<div class="card-image">
+			<h2 class="card-heading">
+				The answer to the question!
+
+			</h2>
+		</div>
+		<div>
+            The answer is: {{result}}
+        </div>
+		<div class="action">
+				<button class="action-button"><a href="/formpdf/">Change PDF</a></button>
+			</div>
+		<div class="action">
+				<button class="action-button"><a href="/formquestion/">Change Question</a></button>
+			</div>
+		<div class="card-info">
+
+		</div>
+	</div>
+</div>
+</body>
+</html>

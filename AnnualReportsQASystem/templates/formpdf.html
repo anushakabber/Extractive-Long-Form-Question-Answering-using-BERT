@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>PDF Path</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<!-- code here -->
+	<div class="card">
+		<div class="card-image">
+			<h2 class="card-heading">
+				Please mention the name of your annual report pdf file. Ensure that the file is in the repo of this project.
+
+			</h2>
+		</div>
+		<form class="card-form" method="post" action="/formquestion/" enctype="multipart/form-data">
+
+			<div class="input">
+				<input type="text" class="input-field" name="inputpdf" value="PDF of the annual report" required/>
+				<label class="input-label"></label>
+			</div>
+
+			<div class="action">
+				<button class="action-button">Upload PDF</button>
+			</div>
+		</form>
+		<div class="card-info">
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
